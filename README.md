@@ -1,5 +1,8 @@
 # OpenSAFELY skills
 
+> [!IMPORTANT]
+> These are skills that I have found useful for my personal OpenSAFELY projects. They are not official skills, and OpenSAFELY does not endorse them. I have made them available in case other people find them useful. Review any outputs from these skills against the OpenSAFELY documentation. There is no guarantee that these skills match the latest guidance or processes.
+
 Skills that guide AI coding agents through work on [OpenSAFELY](https://www.opensafely.org/) studies.
 
 A study repository follows the [OpenSAFELY research template](https://github.com/opensafely/research-template).
