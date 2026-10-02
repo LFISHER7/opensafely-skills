@@ -26,3 +26,7 @@ npx skills update
 ```
 
 ## Available skills
+
+| Skill | What it does |
+| --- | --- |
+| [describe-outputs](skills/describe-outputs/SKILL.md) | Write `outputs.yaml` with one entry for every pipeline output. Each entry has a file name, a path, a description that follows the matching medical reporting guideline, and the disclosure controls applied to that output. |
