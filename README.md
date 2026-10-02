@@ -1,7 +1,7 @@
 # OpenSAFELY skills
 
 > [!IMPORTANT]
-> These are skills that I have found useful for my personal OpenSAFELY projects. They are not official skills, and OpenSAFELY does not endorse them. I have made them available in case other people find them useful. Review any outputs from these skills against the OpenSAFELY documentation. There is no guarantee that these skills match the latest guidance or processes.
+> These are skills that I have found useful for my personal OpenSAFELY projects. They are not official skills, and OpenSAFELY does not endorse them. I have made them available in case other people find them useful. Review any outputs from these skills against the OpenSAFELY documentation. There is no guarantee that these skills match the latest guidance or processes. I validated these skills against Claude Sonnet 5.5 in the Cursor harness. Performance may differ with other models and harnesses.
 
 Skills that guide AI coding agents through work on [OpenSAFELY](https://www.opensafely.org/) studies.
 
@@ -33,3 +33,4 @@ npx skills update
 | Skill | What it does |
 | --- | --- |
 | [describe-outputs](skills/describe-outputs/SKILL.md) | Write `outputs.yaml` with one entry for every pipeline output. Each entry has a file name, a path, a description that follows the matching medical reporting guideline, and the disclosure controls applied to that output. |
+| [audit-outputs](skills/audit-outputs/SKILL.md) | Check, on local dummy data, whether each output applies the OpenSAFELY disclosure-control rules, the file-release limits, and the reviewability checks. Use the study code and the dummy output files. |
