@@ -33,4 +33,3 @@ npx skills update
 | Skill | What it does |
 | --- | --- |
 | [describe-outputs](skills/describe-outputs/SKILL.md) | Write `outputs.yaml` with one entry for every pipeline output. Each entry has a file name, a path, a description that follows the matching medical reporting guideline, and the disclosure controls applied to that output. |
-| [audit-outputs](skills/audit-outputs/SKILL.md) | Check, on local dummy data, whether each output applies the OpenSAFELY disclosure-control rules, the file-release limits, and the reviewability checks. Use the study code and the dummy output files. |
