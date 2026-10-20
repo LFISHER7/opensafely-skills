@@ -33,3 +33,4 @@ npx skills update
 | Skill | What it does |
 | --- | --- |
 | [describe-outputs](skills/describe-outputs/SKILL.md) | Write `outputs.yaml` with one entry for every pipeline output. Each entry has a file name, a path, a description that follows the matching medical reporting guideline, and the disclosure controls applied to that output. |
+| [write-assurance-tests](skills/write-assurance-tests/SKILL.md) | Write ehrQL assurance tests for a dataset definition. Each test patient checks one population rule or one column rule. The `assure` command checks the test rows and the expected dataset values. |
